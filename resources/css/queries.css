@@ -1,0 +1,271 @@
+/* (0 - 480 px) */
+@media only screen and (max-width:480px) {
+    
+    section {
+        padding: 25px 0;
+    }
+    .contact-form {
+        width: 100%;
+    }
+    
+}
+
+/* ( 481 px - 767 px ) */
+@media only screen and (max-width:767px) {
+    body {font-size: 16px;}
+    section{padding: 30px 0;}
+    .row, hero-text-box {
+        padding: 0 4%;
+    }
+    
+    .col {
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+    
+    section {
+        height: 145vh;
+    }
+    
+    .main-nav {
+        display: none;
+    }
+    
+    .mobile-nav-icon  {
+        display: inline-block;
+    }
+    
+    .main-nav {
+        float: left;
+        margin-top: 35px;
+        margin-left: 25px;
+    }
+    
+    .main-nav li {
+        display: block;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+    
+    
+    .sticky-nav .main-nav {
+        margin-top: 10px;
+    
+    }
+
+    .sticky-nav .main-nav a:link,
+    .sticky-nav .main-nav a:visited {
+        padding: 8px 0;
+
+    }
+
+    .sticky-nav .logo-black {
+        display: block;
+    }
+
+    .sticky-nav .logo {
+        display: none;
+    }
+    .sticky-nav .mobile-nav-icon i {
+        color: #000;
+       
+    }
+    
+    .sticky-nav .mobile-nav-icon {
+        margin-top: 10px;
+    }
+
+    
+    .long-copy {
+        width: 100%;
+        margin-left: 0%;
+    }
+    h1 {
+        font-size: 180%;
+    }
+    h2 {
+        font-size: 150%;
+    }
+    .works-steps {
+        margin-bottom: 20px;
+    }
+    .works-steps:last-of-type {
+        margin-bottom: 20px;
+    }
+    .works-steps div {
+    height: 40px;
+    width: 40px;
+    padding: 4px;
+    margin-right: 15px;
+    font-size: 120%;
+}
+    .app-screen {
+        width: 40px;
+    }
+    
+.steps-box:first-child {
+    text-align: center;
+ 
+    
+}
+    
+    
+    .section-testimonials {
+
+      background-color: #fff;
+      color: #555;
+        background-attachment: initial;
+    
+}
+}
+
+/* (768 px - 1023 px)*/
+@media only screen and (max-width:1023px) {
+    body {
+        font-size: 18px;
+        overflow-y: hidden;
+    }
+
+    .long-copy {
+    
+    width: 80%;
+    margin-left: 10%;
+    
+    }
+    
+    
+    .section-meals {
+        margin-top: 50px;
+        margin-bottom: 25%;
+    }
+    #how-it-works {
+        height: 100vh;
+        -webkit-transform: translateY(-380px);
+        transform: translateY(-380px);
+        
+    }
+    .section-cities {
+        -webkit-transform: translateY(-380px);
+        transform: translateY(-380px);
+    }
+    .section-testimonials {
+        -webkit-transform: translateY(-380px);
+        transform: translateY(-380px);
+        
+    }
+    .section-plans {
+        -webkit-transform: translateY(-380px);
+        transform: translateY(-380px);
+    }
+    .section-form {
+        -webkit-transform: translateY(-380px);
+        transform: translateY(-380px);
+    }
+   
+
+
+    .steps-box {
+        margin-top: 10px;
+    }
+    .steps-box:last-child {
+        margin-top: 10px;
+    }
+    .works-steps {
+        margin-bottom: 40px;
+    }
+    .works-steps:last-child {
+        
+    }
+    .app-screen {
+        width: 50%;
+    }
+    
+    .icon-big {
+        padding-left: 30px;
+    }
+    
+    .correct {
+        -webkit-transform: translateY(-26px);
+        transform: translateY(-26px);
+    }
+    
+    .icon-small {
+        width: 17px;
+        margin-right: 5px;
+        
+    }
+    
+    .city-feature {
+        font-size: 90%;
+    }
+    .section-testimonials {
+        height: 80vh;
+    }
+    .plan-box {
+        height: 460px;
+        margin-left: 0%;
+        width: 100%
+        
+    }
+    .pos {
+        position: relative;
+    }
+    .plan-box btn {
+        position: absolute;
+        bottom: 0;
+        
+    }
+    .plan-price {
+        font-size: 250%;
+    }
+    .contact-form {
+        width: 80%;
+    }
+    
+}
+
+/* (1140 px - 1200 px)*/
+@media only screen and (max-width:1200px) {
+    .hero-text-box {
+    
+    width: 100%;
+    padding: 0 2%;
+
+    }
+    
+    .row {
+        padding: 0 2%;
+    }
+    .section-steps {
+        height: 100vh;
+        -webkit-transform: translateY(-70px);
+        transform: translateY(-70px);
+        
+    }
+ 
+    .contact-form {
+        margin-top: 80px; 
+       
+    }
+    
+    .meals-showcase li {
+    float: right;
+ 
+    }
+    
+    .correct {
+        -webkit-transform: translateY(26px);
+        transform: translateY(26px);
+    }
+  
+    
+ 
+
+    
+}
